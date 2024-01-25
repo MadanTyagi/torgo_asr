@@ -1,8 +1,8 @@
 # Location of your Kaldi installation
-export KALDI_ROOT=
+export KALDI_ROOT='/kaggle/working/kaldi'
 
 # Location of the Torgo corpus (.../torgo/data/)
-export CORPUS=
+export CORPUS='/kaggle/input/torgo-audio'
 
 if [ -z $KALDI_ROOT ]; then
   echo "You need to set the KALDI_ROOT variable in path.sh to point to the location of your Kaldi installation."
